@@ -1,0 +1,157 @@
+@media all and (max-width: 1000px) {
+    /* NAVBAR */
+    .navbar{
+        position: fixed;
+        margin-bottom: 10px;
+    }
+
+    .navbar-left{
+        margin-left: -50px;
+    }
+
+    .navbar button {
+        display: block;
+        float: right;
+        margin-right: 70px;
+        margin-top: 20px;
+    }
+
+    .navbar button img{
+        width: 50px;
+        height: 40px;
+    }
+
+    .navbar-left img{
+        width: 170px;
+    }
+
+    .navbar-right{
+        display: none;
+    }
+
+
+    /* FIRST CONTENT */
+
+    .fcontent-left h3{
+        font-size: 15px;
+        margin-bottom: -5px;
+    }
+
+    .fcontent-left p{
+        font-size: 25px;
+    }
+
+    .fcontent-desc{
+        font-size: 15px;
+    }
+
+    .fcontent-left p{
+        font-size: 25px;
+    }
+
+    .fcontent-left{
+        width: 40%;
+        margin-right: 30px;
+    }
+
+    .fcontent-left button{
+        width: 120px;
+        margin-top: 30px;
+    }
+
+    .fcontent-right img{
+        width: 300px;
+    }
+
+    /* SECOND CONTENT */
+    .scontent-title{
+        margin-bottom: 40px;
+    }
+
+    .scontent-items{
+        /* flex-direction: column; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .scontent-item{
+        text-align: center;
+        width: 45%;
+        padding: 0;
+        flex: auto;
+        margin: auto 10px 10px auto;
+    }
+
+    .scontent-item img{
+        width: 100%;
+    }
+
+    .tcontent-items{
+        margin-top: 30px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tcontent-text{
+        width: 80%;
+        text-align: center;
+    }
+
+    .tcontent-img{
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 600px){
+    .navbar{
+        width: 100%;
+    }
+
+    .navbar-left{
+        display: flex;
+        margin-left: -100px;
+    }
+
+    .first-content{
+        padding: 80px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fcontent-left{
+        width: 80%;
+    }
+
+    .fcontent-right{
+        margin-top: 50px;
+    }
+
+    .tcontent-items{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .tcontent-text{
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .tcontent-img img{
+       width: 100%;
+    }
+
+    .contact-items{
+        flex-direction: column;
+        margin-top: -50px;
+    }
+/* 
+    .icon{
+        margin-top: 10px;
+    } */
+}
